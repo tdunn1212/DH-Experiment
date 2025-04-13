@@ -1,6 +1,8 @@
 # Build your own girlfriend! (*reciprocity not included*)
 > In this article, I break down my DH experiment, outlining my goals, process, and larger implications it has for my thesis project.
 
+By Theo Dunn, DIGH 5000
+
 ## Introduction
 The mass-implementation and advertisement of generative artificial intelligence (AI) has made it so that AI resembles a kind of black box, so opaque that it becomes challenging for even seasoned researchers to understand the processes that enable algorithmic decision-making (ADM). This is prolifically worsened by the amount of data and programming that contributes to the inputs/outputs of large language models (LLMs) like ChatGPT. Modern LLMs are trained on datasets so large that it is generally impossible for human minds to ever see, never mind process, this data. ChatGPT 4.0 is trained on 1 petabyte (PB) worth of data, or 1,000 TB. This is equivalent to "180 [United States] Libraries of Congress; 500 billion pages of standard printed text" ([as of 2011](https://intellobics.com/2011/02/14/understanding-information-measures/)). 
 
@@ -26,7 +28,7 @@ Briefly, philosopher Kate Manne uses analytic philosophy to define and specify t
 As previously mentioned, I want my work to implement accessible and multimedia methodology to better reach a wider audience and promote relational results. DH heavily aligns with these goals. My research in this experiment and subsequent empirical thesis work seeks to specifically distill algorithmic bias in AI partners, and emphasize illusory aspects of AI relationships. Given the opaqueness of ADM, it is greatly beneficial to specifically distill and illustrate how AI can perpetuate harm. This is also relevant given how current AI adoption appeals to mitigating challenges and possibilities of failure. Evidence-based work helps combat cognitive dissonance that AI-based harms are exaggerated.
 ## Experimentation Process
 In this section, I will outline the main steps and iterations of my experiment, reflecting on and listing my main steps to trace the development of my research and promote transparency. Each of the headings for my main steps will contain a hyperlink to my lab notes matching the corresponding section. 
-### One
+### [One](DH-Experiment-1.md)
 In this step, I first outlined my research question and what steps I needed to take to achieve that. Taking down the main components of the experiment requirements, I proceeded to brainstorm my question before arriving at my main research question:
 
 >*Can using data from scripts and other media sources distill patriarchal influences that might help us glean how AI chatbots are trained to resemble "girlfriends"?*
@@ -34,48 +36,48 @@ In this step, I first outlined my research question and what steps I needed to t
 With this, I broke down my research idea into main steps so that I could space out the workload and ensure I did it so that it would be easily understandable and replicable by any readers. I forgot to note this down, but it was in this step that I also experimented with [Shawn Graham's GitHub notebooks](https://github.com/shawngraham/pn_notebooks) on breaking down AI technology to help make their processes and shortcomings more transparent. I used his first notebook, titled "Practical Necromancy," as code that would help me apply my very beginner Python skills to train a LLM with minimal stress. 
 
 I first ran Dr. Graham's code, trying my best to see how it works and what I could use from it to apply to my own experiment. Once I did this and experimented with the different LLM outputs, I decided I would next try making my own iteration in my first attempt to make an LLM that might rudimentarily resemble an AI GF.
-### Two 
+### [Two](DH-Experiment-2.md)
 In my first attempt, I used the dialogue files from *Stardew Valley* (SDV) to try and create a LLM that would mimic the dialogue of characters specifically geared to have conversations that make them appear attractive to players. I decided to use Haley, since much of her character is hyperfeminine and superficial until her development in later cutscenes.
 
 However, these files are in JSON format, which made the parsing and formatting slightly challenging. I decided to proceed even with inaccuracies, since I was more concerned with getting the preliminary coding correct. For the most part, this experiment was mostly just to make sure I could modify the code and make it suit my purposes in my experiment. This did work, however, the formatting of the JSON file and the small amount of data made the results predictably poor-quality (see below).
-![[Screenshot 2025-04-07 at 14.11.12.png]]
+![](/images/4-07-02)
 These results are not great, but they show that I can modify the code and train it to create conversational dialogue. In this training, I also reflected on my goals and determined that especially with my limited coding experience, it is better to gear my efforts towards developing my programming experience to successfully create my replication of an AI girlfriend large language model (LLM), to distill the sophistication, obscurification, and potential harms in AI GFs. It helped me to determine the steps I needed to take for the rest of the experiment.
-### Three
+### [Three](DH-Experiment-3.md)
 The results of this experiment were similar to the initial results of my last coding session, except I changed the file to a txt file and removed some of the JSON language. I decided that since it would be more time-consuming than beneficial for me to continue converting JSON to txt, I left the SDV dialogue behind to focus instead on movie scripts instead of video game files.
 
 However, I did use the txt file I converted to try and train GPT2 again, this time with Abigail instead of Haley. I also slightly modified the training and output variables to make the results shorter and more geared to my goals. So these results were beneficial, but not ultimately the trajectory the rest of my experiment would be taking.
-![[Screenshot 2025-04-08 at 13.37.42.png]]
-### Four
+![](/images/4-08-03)
+### [Four](DH-Experiment-4.md)
 In this stage, I moved my code to working locally in VSCode, which ultimately helped for programming, but made running the code much harder, due to the GPU requirements for training LLMs. In this stage, I also started to work with the *Her* script, as scripts became much easier to work through compared to video game dialogue, due to their formatting and their larger datasets. I wrote a function that would take only Samantha's (the AI love interest) dialogue and put it in a separate text file. The output looked like this:
-![[Screenshot 2025-04-08 at 20.45.04.png]]
+![](/images/4-08-04)
 One challenge in working with txt files is that many special characters did not translate to the txt format, so there are some broken strands of text. I would have to do more future troubleshooting to accommodate this. I then adapted the code from Practical Necromancy to train and output data based on the *Her* script. The final results took the following form:
-![[Screenshot 2025-04-08 at 21.09.53.png]]
+![](/images/4-08-06)
 These results were definitely on the right track towards what I want to produce in my final experiment. This specific stage of my project was very fruitful in building my confidence and plans for further coding work. It also helped me determine my next steps of both adding more dialogue to the training data and performing more specified tests with enhanced training.
-### Five
+### [Five](DH-Experiment-5.md)
 This is where I feel like I hit the ground running with my coding process. I decided to add script data from Ava in *Ex Machina*, going with the robot love interest theme. 
-![[Screenshot 2025-04-09 at 10.27.20.png]]
+![](/images/4-09-01)
 Given how easy this was, I wanted to do it ten more times at once, but I knew it was best to take smaller steps and work my way up from there. I then concatenated these two files to create my dataset to train GPT2, with 270~ lines of dialogue.
-![[Screenshot 2025-04-09 at 10.54.22.png]]
+![](/images/4-09-02)
 This, combined with the training stage, brought me to my final results for this stage (below). It seems like the model preferred to use Samantha's dialogue more, which makes sense given that Samantha has more dialogue to work with and her tone is warmer overall. These results were still promising and helped me to feel more confident in my programming skills. 
-![[Screenshot 2025-04-09 at 11.22.42.png]]
-### Six
+![](/images/4-09-03)
+### [Six](DH-Experiment-6.md)
 Following my success in the last stage of my experimentation, I decided to add several more characters to the dataset to expand the variability in outputs that my model generates. Using the scripts from *Scott Pilgrim*, *The Matrix*, and *Uncharted 2*, I added three characters from *Scott Pilgrim* (Ramona, Knives, and Envy, all love interests), Trinity from *the Matrix*, and Chloe from *Uncharted 2*. Using the same format of redeclaring variables and running my function, I extracted all of these characters and then trained GPT2 on all of their data. The only thing I had to change in this process was writing a slightly modified function to extract Chloe's dialogue, since the Uncharted script used comma separators instead of linebreaks. This also greatly expanded my dataset to roughly 850 lines of dialogue, making the training data much larger and creating more potential for variable results.
-![[Screenshot 2025-04-09 at 13.21.39.png]]
+![](/images/4-09-05)
 In my results, I found that the model still prioritized Samantha's dialogue to a certain extent, but answers started to become a lot more varied. I decided I would import my code back into Colab for the next steps, so that I can train it in more detail and speed. I also considered if there was any way to ensure that the model could ensure that it is only writing contained sentences, but I was unable to explore this within the scope of this experiment. 
-### Seven
+### [Seven](DH-Experiment-7.md)
 Not much happened in this experiment session, I simply wanted to try my expanded training data in Colab with more training steps to see if it enhanced the coherence of my results. The results were slightly better, but mot overwhelmingly so:
-![[Screenshot 2025-04-09 at 16.45.22.png]]
+![](/images/4-09-06)
 I realized that in this stage, it wouldn't be easy to make sure sure that my results are fully coherent, as this would involve making my LLM much more sophisticated and going beyond GPT2's capabilities. I decided that I would add more data to my training catalogue and work with more sophisticated tests.
-### Eight
+### [Eight](DH-Experiment-8.md)
 For expanding the training data, I ended up taking a step backwards, which didn't end up being too consequential. I added dialogue from Tifa and Aerith from *Final Fantasy VII*, which is a massive game and a stark departure from the rest of my training data. As a result, Aerith and Tifa both have a ton of lines, which skewed a lot of the model's outputs. Thankfully, this didn't end up being too time consuming, since I had only redefined the function I used to extract Chloe's dialogue.
-![[Screenshot 2025-04-09 at 18.52.55.png]]
+![](/images/4-09-09)
 I knew I had to go in a different direction when GPT2 called me Sephiroth... I decided in my end reflection of that experimentation session that I would try out some rom-com scripts instead.
-### Nine
+### [Nine](DH-Experiment-9.md)
 As I decided in my previous training session, I ended up adding the data from *500 Days of Summer* and *You've Got Mail* to get dialogue that is both strictly romantic and grounded in reality rather than fantasy. In my last training session, I had also discovered that I reached the daily limit of Colab's free T4 GPU use, so I had to do less training in VSCode until the following day. However, I felt like after the step back I took last time I trained the model, this was a step forward, as the results were (mostly) very promising. 
-![[Screenshot 2025-04-10 at 10.58.28.png]]
-![[Screenshot 2025-04-10 at 10.59.29.png]]
+![](/images/4-10-01)
+![](/images/4-10-02)
 Many of these outputs still have the same incoherencies that have started to frustrate me, but I've accepted that to remedy this, I would have to go into much more detail and train potentially a more advanced LLM to resolve this issues. However, at this stage, I felt much closer to getting to a complete version of my code. I knew that once I could return to Colab, a more rigorously trained version of my model would likely get me the results I want for this stage.
-### Ten
+### [Ten](DH-Experiment-10.md)
 In this step, I carried out my final experiment, which I won't go over in extreme detail, since the actual notes are roughly as long as this essay. However, I encourage you to go through the page and see the model's different results. Without jumping the gun, I overall found that there were still many parts of my outputs that I was unsatisfied with, but compared to where I started, I'm proud of the visible improvements I've made and there is great potential for future experiments in this area.
 
 For the parameters of this test, I first trained my model with the most steps yet (2000) and then decided to try a number of different prompts while modifying the randomness values of the model. 
@@ -108,7 +110,7 @@ So long story short, we can definitely learn something from this avenue of exper
 My next steps include finding how to work in a chatbot model that I can easily train while still maintaining an understanding of the data that the LLM is drawing upon. Creating a more varied and sophisticated LLM helps to guarantee the validity of my research, formatting my work in a way that simultaneously uses theoretical and empirical evidence to stress the urgent harms of relational artefacts. 
 
 I also think it would be valuable to do investigative work on the kinds of data used to train AI girlfriends, which companies treat as their "secret formula," making this information hard to find. 
-![[Pasted image 20250412162207.png]]
+![A Spongebob screenshot of Mr. Krabbs and Plankton fighting over the Krabby Patty secret formula](https://static1.srcdn.com/wordpress/wp-content/uploads/2020/03/SpongeBob-SquarePants-Mr-Krabs-secret-formula-Plankton.jpg)
 *(Pictured above: AI companies fighting over training data that isn't their IP in the first place)*
 However, I have good reason to suspect that a lot of this training data depicts a one-dimensional, misogynistic view of women, which is what makes AI GFs so satisfying to their users. Doing investigative work by infiltrating private forums of people with AI GFs helps me find out what this data contains. I have already tried many times to reach out to many different companies, but haven't yet gotten any responses.
 ## Key TL;DR Takeaways
