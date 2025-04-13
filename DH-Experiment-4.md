@@ -5,10 +5,10 @@ april 8th
 
 # Progress
 - I was able to download the Jupyter Notebook files, but I had to do a lot of research/messing around/asking ChatGPT a couple of times to get the code to work properly. Finally, after successfully performing the test with the revised code (which took a while and is the main downside from doing things locally, I definitely underestimated what kind of GPU an LLM needs!), I moved onto making the code again for my purposes with the Her script
-- with programming support from ChatGPT  (I definitely want to get better at programming through all this), I got to making a function that combs through *Her's* script to take dialogue from Samantha to put in a separate text file![[Screenshot 2025-04-08 at 20.45.04.png]]
+- with programming support from ChatGPT  (I definitely want to get better at programming through all this), I got to making a function that combs through *Her's* script to take dialogue from Samantha to put in a separate text file![](/images/4-08-04)
 	- In future work, I will have to work to accommodate special characters and double check for errors
-- Finally, I adapted the code from Practical Necromancy to my purposes, before doing a test training on GPT2 to teach it Samantha's style![[Screenshot 2025-04-08 at 20.54.01.png]]
-- Ta-Da!![[Screenshot 2025-04-08 at 21.09.53.png]]
+- Finally, I adapted the code from Practical Necromancy to my purposes, before doing a test training on GPT2 to teach it Samantha's style![](/images/4-08-05)
+- Ta-Da!![](/images/4-08-06)
 - Definitely still not perfect, but I feel like this step has increased my confidence a lot and given me some foundational opportunities to take next steps and build on this
 
 # Next Steps
