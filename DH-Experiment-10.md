@@ -4,7 +4,8 @@ april 10th
 - Essentially, I want to get my best results yet and analyze them with more sophisticated detail to set myself up for my unessay.
 
 # Progress
-- Back in Colab, I have re-imported my notebook and ensured that everything is properly updated, then I ran the training code with the following parameters ![[Screenshot 2025-04-10 at 15.55.38.png]]
+- Back in Colab, I have re-imported my notebook and ensured that everything is properly updated, then I ran the training code with the following parameters
+![](/images/4-10-04)
 - This will take a while, but in the meantime, I will 0utline the different tests I want to make once the model is trained to ensure that my testing is organized and can be captured in a detailed way.
 - 1h 16m later....
 Note that below are the default settings I will use in my test
