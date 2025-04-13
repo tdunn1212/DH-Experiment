@@ -6,7 +6,8 @@ april 9th
 - I uploaded my notebook into Colab and made sure the code worked
 - Now I am working on the training, waiting for my results and getting samples every 200 steps
 - Results below:
-![[Screenshot 2025-04-09 at 16.45.22.png]]![[Screenshot 2025-04-09 at 16.46.59.png]]
+![](/images/4-09-06)
+![](/images/4-09-07)
 # Next Steps
 - I do want to add slightly more data to my training set
 - However, i also wish that some of the responses were more coherent and made sense
