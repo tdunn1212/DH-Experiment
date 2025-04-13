@@ -20,7 +20,7 @@ This is a good start!
 - on a whim, I also decided to add Envy from Scott Pilgrim... because Scott Pilgrim seems like the type to have an AI GF
 - another interesting element of this is seeing how much/little different female characters speak
 	- many of these female love interests are integral to their medias' plots, but when i get into it, they seem to only have minimal lines of dialogue, making their media *about* them rather than what they have to say
-![[Screenshot 2025-04-09 at 12.50.10.png]]
+![](/images/4-09-04)
 - With all of our characters done, it's time to concatenate their dialogue
 - Chloe definitely has the most dialogue, which makes sense since she's a video game character in a 10+ hour narrative, but I'm h0ping she won't dominate the training data, else I may have to cut her out (after I made her own function and everything, sorry Chloe!)
 - However, this should definitely get me to my goal of 1000+ lines
@@ -30,7 +30,7 @@ This is a good start!
 - Lastly, we train again! let's see what GPT has to say
 - Findings: the output still! is swayed towards her, but not as bad as before.
 - i wonder if this will change if her is in the middle VS first or if i need more data or if the responses are catered to her, i think I will have to search around and experiment a ltittle more
-![[Screenshot 2025-04-09 at 13.21.39.png]]
+![](/images/4-09-05)
 # Next Steps
 - I am going to import my code into Colab again to do a big big training session and see what I get. If the results are promising, I will continue to further sophisticate my training before getting to the final results
 - i feel like i need much much more data to be able to get adequate and variable results, but i'm drawing a blank on training data
