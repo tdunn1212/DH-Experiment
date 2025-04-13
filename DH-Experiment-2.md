@@ -7,7 +7,7 @@ I am looking at the code for making your own GPT-2 bot for the first time and I 
 - Thanks to the game's online community, I have a JSON file (attach) of all of Haley's dialogue, which I will input into the Practical Necromancy code Shawn Graham provided me with and I'll see what happens
 - the code will very likely break...
 - the file upload did work! I'm definitely going to have to revise my JSON files to parse them for specific text, since right now it just gathers each line. right now there's a big long training session happening
-	- i will also need to figure this out for movie scripts, where I only want certain characters' dialogue![[Screenshot 2025-04-07 at 13.44.42.png]]
+	- i will also need to figure this out for movie scripts, where I only want certain characters' dialogue![](/images/4-07-01)
 	- the photo of my code running.... i did not account how long it would take to train a LLM. no instant gratification to be found here
 - in the future... i will not add as many steps to my preliminary efforts (it's been 22 minutes... now 36..)
 
@@ -19,7 +19,9 @@ So...
 >*This experiment is then my first steps in developing my programming experience to successfully create my replication of an AI girlfriend large language model (LLM), to distill the sophistication, obscurification, and potential harms in AI GFs
 
 #### Final Results
-![[Screenshot 2025-04-07 at 14.11.12.png]]![[Screenshot 2025-04-07 at 14.14.18.png]]So it didn't work... I need to go through the JSON file and add code that parses and isolates the dialogue and not the entire file
+![](/images/4-07-02)
+![](/images/4-07-03)
+So it didn't work... I need to go through the JSON file and add code that parses and isolates the dialogue and not the entire file
 - Right Now, it's incoherent and doesn't really work how I want it to, but! I uploaded my own file and the code still ran, so there's a small victory
 - Next time, I will add code that parses the file and maybe tries multiple files of dialogue for a larger sample size
 	- since the data that I did get outputted was the same lines of dialogue each time
